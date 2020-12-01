@@ -8,7 +8,8 @@ namespace AdventOfCode.Year2015
         static void Main(string[] args)
         {
             List<Action> days = new List<Action> {
-                () => Day1()
+                () => Day1(),
+                () => Day2()
             };
 
             for (int i = 0; i < days.Count; i++)
