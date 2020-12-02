@@ -25,6 +25,7 @@ namespace AdventOfCode.Year2015
                     basementFound = true;
                 }
             }
+            
             Console.WriteLine("Part 1: " + level);
         }
     }

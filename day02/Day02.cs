@@ -22,7 +22,6 @@ namespace AdventOfCode.Year2015
             }
             
             Console.WriteLine("Part 1: " + requiredPaper);
-            
             Console.WriteLine("Part 2: " + requiredRibbon);
         }
     }

@@ -11,10 +11,8 @@ namespace AdventOfCode.Year2015
             var step1VisitiedHouses = CalculateVisitedHouses(input);
             Console.WriteLine("Part 1: " + step1VisitiedHouses.Count);
             
-            // Santa's visited houses
             var step2VisitedHouses = CalculateVisitedHouses(input, 0,2);
             step2VisitedHouses.UnionWith(CalculateVisitedHouses(input, 1,2));
-           
 
             Console.WriteLine("Part 2: " + step2VisitedHouses.Count);
         }
