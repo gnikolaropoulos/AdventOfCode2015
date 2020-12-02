@@ -13,4 +13,4 @@ name="$(printf "Day%02d" "$1")"
 mkdir "$name"
 cd "$name"
 touch "$name.cs"
-touch "input.txt
+touch "input.txt"

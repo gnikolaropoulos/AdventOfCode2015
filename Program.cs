@@ -9,7 +9,8 @@ namespace AdventOfCode.Year2015
         {
             List<Action> days = new List<Action> {
                 () => Day1(),
-                () => Day2()
+                () => Day2(),
+                () => Day3()
             };
 
             for (int i = 0; i < days.Count; i++)
