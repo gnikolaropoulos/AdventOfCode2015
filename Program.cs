@@ -12,7 +12,8 @@ namespace AdventOfCode.Year2015
                 () => Day2(),
                 () => Day3(),
                 () => Day4(),
-                () => Day5()
+                () => Day5(),
+                () => Day6()
             };
 
             for (int i = 0; i < days.Count; i++)
